@@ -1,4 +1,5 @@
 :root {
+  --main-background-image: url('../images/bg.gif'); 
   --main-background-color: #2c2c2c;
 
   --main-first-color: #ffffff;
@@ -21,6 +22,7 @@ html, body {
 }
 
 body {
+	background-image: var(--main-background-image);
 	background-color: var(--main-background-color);
 }
 
@@ -51,17 +53,21 @@ a {
 	font-size: 2.5em;
 	font-weight: bold;
 	color: yellow;
+	background-color: black;
+	background-size:75px 75px;
 }
 
 .text_subtitle {
 	font-size: 1.5em;
+	background-color: rgba(3, 136, 3, 0.7);
+margin-bottom: 20px;
 }
 
 .social_row {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: right;
 }
 
 .div_social {
@@ -82,4 +88,6 @@ a {
 
 .social_text {
 	margin-top: 8px;
+	color: yellow;
+	background-color: black;
 }
