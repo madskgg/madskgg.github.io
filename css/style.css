@@ -1,6 +1,5 @@
 :root {
   --main-background-image: url("https://madskgg.github.io/images/bg.gif"); 
-  --main-background-color: #2c2c2c;
 
   --main-first-color: #ffffff;
   --main-second-color: #3c3b3b;
@@ -23,7 +22,6 @@ html, body {
 
 body {
 	background-image: var(--main-background-image);
-	background-color: var(--main-background-color);
 }
 
 a {
