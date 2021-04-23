@@ -91,3 +91,12 @@ margin-bottom: 20px;
 	color: yellow;
 	background-color: black;
 }
+
+.projectsTitle {
+	background-color: rgba(3, 136, 3, 0.7);
+}
+
+.projectsMain {
+	background-color: rgba(255, 255, 255, 0.4);
+	color: yellow;
+}
